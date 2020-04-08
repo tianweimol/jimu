@@ -25,7 +25,7 @@
     "ServiceInvokePort": "8001"
   },
   "DapperOptions": {
-    "ConnectionString": "",
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
     "DbType": "MySql"
   },
   "TransportOptions": {
