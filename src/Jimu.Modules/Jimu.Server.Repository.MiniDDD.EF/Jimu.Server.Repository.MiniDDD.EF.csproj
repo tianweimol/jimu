@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.1.1</Version>
     <Authors>grissomlau@qq.com</Authors>
@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MiniDDD.UnitOfWork.EF" Version="1.0.4" />
+    <PackageReference Include="MiniDDD.UnitOfWork.EF" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>

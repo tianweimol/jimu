@@ -1,7 +1,7 @@
 ﻿{
   "JimuLog4netOptions": {
     "UseInService": true,
-    "Configuration":  "log4net.config"
+    "Configuration": "log4net.config"
   },
   "ConsulOptions": {
     "Ip": "127.0.0.1", //consul ip
@@ -14,6 +14,10 @@
     "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
     "DbType": "MySql"
   },
+  "MiniDDDEFOptions": {
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "DbType": "MySql"
+  },
   "TransportOptions": {
     "Ip": "127.0.0.1", //服务宿主ip
     "Port": 8003, //服务宿主端口
@@ -23,6 +27,6 @@
   },
   "ServiceOptions": {
     "Path": "", //服务dll所在路径，默认当前目录
-    "LoadFilePattern": "IService.Order.dll,Service.Order.dll", //需要加载的服务dll，支持统配符:*.dll,*.txt
+    "LoadFilePattern": "IService.Order.dll,Service.Order.dll" //需要加载的服务dll，支持统配符:*.dll,*.txt
   }
 }

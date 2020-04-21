@@ -18,6 +18,10 @@
     "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
     "DbType": "MySql"
   },
+  "MiniDDDEFOptions": {
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "DbType": "MySql"
+  },
   "TransportOptions": {
     "Ip": "127.0.0.1", //服务宿主ip
     "Port": 8002, //服务宿主端口
@@ -30,9 +34,11 @@
     "LoadFilePattern": "IService.User.dll,Service.User.dll" //需要加载的服务dll，支持统配符:*.dll,*.txt
   },
   "MemcachedOptions": {
-    "Servers": [ {
-      "Address": "192.168.11.24",
-      "Port": 11211
-                 } ]
+    "Servers": [
+      {
+        "Address": "192.168.11.24",
+        "Port": 11211
+      }
+    ]
   }
 }
