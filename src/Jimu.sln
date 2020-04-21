@@ -65,7 +65,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Order", "Samples\Ord
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jimu.All", "Jimu.All\Jimu.All.csproj", "{16E0A604-D613-40EF-AAFC-92EE17213B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jimu.Server.Memcached.EnyimMemcachedCore", "Jimu.Modules\Jimu.Server.Memcached.EnyimMemcachedCore\Jimu.Server.Memcached.EnyimMemcachedCore.csproj", "{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jimu.Server.Memcached.EnyimMemcachedCore", "Jimu.Modules\Jimu.Server.Memcached.EnyimMemcachedCore\Jimu.Server.Memcached.EnyimMemcachedCore.csproj", "{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mol.DBOperate.Model", "DBOperate\Mol.DBOperate.Model\Mol.DBOperate.Model.csproj", "{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mol.DBOperate.EF", "DBOperate\Mol.DBOperate.EF\Mol.DBOperate.EF.csproj", "{57F5E506-0DA9-41AA-8384-6898F7AAF1E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{88740EDE-B78C-4CA9-A02A-C128A3DC9CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Menu", "Menu", "{2EB103BC-20D3-4A24-920B-D34F560B0E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +185,14 @@ Global
 		{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F5E506-0DA9-41AA-8384-6898F7AAF1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F5E506-0DA9-41AA-8384-6898F7AAF1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F5E506-0DA9-41AA-8384-6898F7AAF1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F5E506-0DA9-41AA-8384-6898F7AAF1E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +222,9 @@ Global
 		{661D3012-2E30-4316-A66E-4BF192552556} = {D35012AF-C669-4527-BE0F-6B6667825BB5}
 		{348A4C2C-E16D-4C6E-BA1E-C077B4C7C6DF} = {D35012AF-C669-4527-BE0F-6B6667825BB5}
 		{8878AB09-E66F-4CD8-8F16-3B1F2E4FC1B1} = {238A367F-90BC-4E5A-B11B-4D04519621B7}
+		{A8C5FE01-BC0C-4F25-B614-D36E9CF124C5} = {238A367F-90BC-4E5A-B11B-4D04519621B7}
+		{57F5E506-0DA9-41AA-8384-6898F7AAF1E5} = {238A367F-90BC-4E5A-B11B-4D04519621B7}
+		{2EB103BC-20D3-4A24-920B-D34F560B0E4D} = {88740EDE-B78C-4CA9-A02A-C128A3DC9CA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2F7F17C-34DB-4FBF-8BCD-49BC2FA3A10F}

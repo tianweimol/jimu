@@ -32,6 +32,14 @@
     "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
     "DbType": "MySql"
   },
+  "DbContextOptions": {
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "DbType": "MySql"
+  },
+  "MolEFOptions": {
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "DbType": "MySql"
+  },
   "TransportOptions": {
     "Ip": "127.0.0.1", //服务宿主ip
     "Port": 8001, //服务宿主端口

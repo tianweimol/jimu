@@ -318,3 +318,5 @@
 /src/Jimu.Modules/Jimu.Server.Memcached.EnyimMemcachedCore/bin
 Debug/
 bin/
+/obj
+/src/DBOperate/Mol.DBOperate.EF/obj
