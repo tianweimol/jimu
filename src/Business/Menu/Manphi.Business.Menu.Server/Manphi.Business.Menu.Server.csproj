@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="JimuAppServerSettings.json" />
+    <None Remove="skyapm.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JimuAppServerSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skyapm.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DBOperate\Mol.DBOperate.EF\Manphi.DBOperate.EF.csproj" />
+    <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Diagnostic.Skywalking\Jimu.Server.Diagnostic.Skywalking.csproj" />
+    <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Discovery.Consul\Jimu.Server.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Memcached.EnyimMemcachedCore\Jimu.Server.Memcached.EnyimMemcachedCore.csproj" />
+    <ProjectReference Include="..\Manphi.Business.Menu.Service\Manphi.Business.Menu.Service.csproj" />
+  </ItemGroup>
+</Project>

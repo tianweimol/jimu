@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Mol.DBOperate.Model.csproj",
-      "projectName": "Mol.DBOperate.Model",
-      "projectPath": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Mol.DBOperate.Model.csproj",
+      "projectUniqueName": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Manphi.DBOperate.Model.csproj",
+      "projectName": "Manphi.DBOperate.Model",
+      "projectPath": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Manphi.DBOperate.Model.csproj",
       "packagesPath": "E:\\NugetPackage",
       "outputPath": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\obj\\",
       "projectStyle": "PackageReference",

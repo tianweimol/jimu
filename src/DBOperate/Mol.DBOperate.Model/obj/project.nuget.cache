@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "toUK8/TImzdyqawByxSwKTVf+qmo+RKl1ljfYgkcjIHX9GFAvVKD53593FXrNwwBxuSTc4Jd9nUY3t6TWrMQxA==",
+  "dgSpecHash": "puLH5uFq+AYmS0F8nU5E4xnjpCdH5fFsOOhzr+LIYTmOq+hdDXvKGXZhqq2sLjfSqnP7/N/AwReU/3+aeuabmw==",
   "success": true,
-  "projectFilePath": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Mol.DBOperate.Model.csproj",
+  "projectFilePath": "E:\\Manphi\\Code\\jimu\\src\\DBOperate\\Mol.DBOperate.Model\\Manphi.DBOperate.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

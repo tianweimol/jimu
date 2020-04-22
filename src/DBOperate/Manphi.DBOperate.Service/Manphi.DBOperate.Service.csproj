@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mol.DBOperate.EF\Manphi.DBOperate.EF.csproj" />
+    <ProjectReference Include="..\Mol.DBOperate.Model\Manphi.DBOperate.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Jimu.Module;
 using Jimu.Server.ORM.Dapper;
+using Manphi.DBOperate.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -25,11 +26,11 @@ namespace Mol.DBOperate.EF
 
         public override void DoServiceRegister(ContainerBuilder serviceContainerBuilder)
         {
-            serviceContainerBuilder.RegisterGeneric(typeof(BaseContext<>)).As(typeof(IBaseContext<>))
+            serviceContainerBuilder.RegisterGeneric(typeof(BaseDBContext)).As(typeof(IBaseDbContext))
                 // .WithParameter("option", _dbContextOptions)
                 // .WithParameter("dboptions", _dbContextOptions)
                 .InstancePerLifetimeScope();
-
+            serviceContainerBuilder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
             if (_options != null && _options.Enable)
             {
                 //DbContextOptions dbContextOptions = new DbContextOptions
