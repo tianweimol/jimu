@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 
-namespace Manphi.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
     public static class SqlQueryHelper
     {

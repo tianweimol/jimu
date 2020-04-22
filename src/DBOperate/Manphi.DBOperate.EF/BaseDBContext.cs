@@ -1,7 +1,7 @@
-﻿using Manphi.DBOperate.EF;
+﻿using Manphi.DbOperate.EF;
 using Manphi.DBOperate.Mapping;
 using Microsoft.EntityFrameworkCore;
-using Mol.DBOperate.Model;
+using Manphi.DBOperate.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,10 +9,9 @@ using System.Data.Common;
 using System.Linq;
 using System.Reflection;
 
-namespace Mol.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
-    // TODO: Context应该是不能做成泛型的，要不然mapping在modelcreating中就不好写了。
-    public class BaseDBContext : DbContext, IBaseDbContext
+    public class BaseDbContext : DbContext, IBaseDbContext
     {
         #region Ctor
 
@@ -20,7 +19,7 @@ namespace Mol.DBOperate.EF
         /// Ctor
         /// </summary>
         /// <param name="nameOrConnectionString">Connecting string</param>
-        public BaseDBContext(DbContextOptions nameOrConnectionString) : base(nameOrConnectionString)
+        public BaseDbContext(DbContextOptions nameOrConnectionString) : base(nameOrConnectionString)
         {
 
         }

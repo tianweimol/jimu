@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Manphi.DBOperate.Model;
 
-namespace Manphi.DBOperate.Mapping
+namespace Manphi.DBOperate.EF.Mapping
 {
     /// <summary>
     /// 实体配置类

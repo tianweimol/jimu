@@ -1,5 +1,5 @@
-﻿using Manphi.DBOperate.EF;
-using Mol.DBOperate.Model;
+﻿using Manphi.DbOperate.EF;
+using Manphi.DBOperate.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;

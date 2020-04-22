@@ -1,4 +1,5 @@
 ﻿using Manphi.DBOperate.Model;
+using Manphi.DBOperate.Model.PermissionFolder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

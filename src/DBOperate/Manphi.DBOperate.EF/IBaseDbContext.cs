@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Mol.DBOperate.Model;
+using Manphi.DBOperate.Model;
 using System.Collections.Generic;
 using System.Data;
 
-namespace Mol.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
     public interface IBaseDbContext
     {

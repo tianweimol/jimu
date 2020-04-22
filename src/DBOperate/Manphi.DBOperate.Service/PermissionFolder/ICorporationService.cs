@@ -1,4 +1,5 @@
 ﻿using Manphi.DBOperate.Model;
+using Manphi.DBOperate.Model.PermissionFolder;
 
 namespace Manphi.DBOperate.Service.PermissionFolder
 {

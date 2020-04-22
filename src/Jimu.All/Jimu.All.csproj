@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -19,7 +20,8 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\DBOperate\Mol.DBOperate.EF\Manphi.DBOperate.EF.csproj" />
+    <ProjectReference Include="..\DBOperate\Manphi.DBOperate.EF\Manphi.DbOperate.EF.csproj" />
+    <ProjectReference Include="..\DBOperate\Manphi.DBOperate.Service\Manphi.DBOperate.Service.csproj" />
     <ProjectReference Include="..\Jimu.Modules\Jimu.Client.ApiGateway.Swagger\Jimu.Client.ApiGateway.Swagger.csproj" />
     <ProjectReference Include="..\Jimu.Modules\Jimu.Client.Diagnostic.Skywalking\Jimu.Client.Diagnostic.Skywalking.csproj" />
     <ProjectReference Include="..\Jimu.Modules\Jimu.Client.Discovery.Consul\Jimu.Client.Discovery.Consul.csproj" />

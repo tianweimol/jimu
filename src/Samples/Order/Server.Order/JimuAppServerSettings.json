@@ -11,19 +11,19 @@
     "ServiceInvokePort": "8003"
   },
   "DapperOptions": {
-    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=Manphi000;Allow User Variables=True;",
     "DbType": "MySql"
   },
   "MiniDDDEFOptions": {
-    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=Manphi000;Allow User Variables=True;",
     "DbType": "MySql"
   },
   "DbContextOptions": {
-    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=Manphi000;Allow User Variables=True;",
     "DbType": "MySql"
   },
-  "MolEFOptions": {
-    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=mol000;Allow User Variables=True;",
+  "ManphiEFOptions": {
+    "ConnectionString": "server=123.57.250.6;database=jimu_sample;user=root;pwd=Manphi000;Allow User Variables=True;",
     "DbType": "MySql"
   },
   "TransportOptions": {

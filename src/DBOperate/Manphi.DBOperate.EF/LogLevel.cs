@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mol.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
     //
     // 摘要:

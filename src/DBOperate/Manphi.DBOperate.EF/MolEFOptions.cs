@@ -1,4 +1,4 @@
-﻿namespace Mol.DBOperate.EF
+﻿namespace Manphi.DbOperate.EF
 {
     /*
      {
@@ -11,7 +11,7 @@
    }
 }
          */
-    public class MolEFOptions
+    public class ManphiEFOptions
     {
         public bool Enable { get; set; } = true;
         public string ConnectionString { get; set; }

@@ -1,4 +1,4 @@
-﻿using Mol.DBOperate.Model;
+﻿using Manphi.DBOperate.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Manphi.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
     public interface IRepository<T> where T : BaseEntity
     {

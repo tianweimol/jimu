@@ -1,11 +1,11 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+// using System.ComponentModel.DataAnnotations;
 
-namespace Mol.DBOperate.Model
+namespace Manphi.DBOperate.Model
 {
     public class BaseEntity
     {
-        [Key]
+        //[Key]
         public int Id { get; set; }
         public DateTime CreateTime { get; set; } = DateTime.Now;
 

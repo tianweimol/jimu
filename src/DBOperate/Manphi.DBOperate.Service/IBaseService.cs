@@ -1,4 +1,4 @@
-﻿using Mol.DBOperate.Model;
+﻿using Manphi.DBOperate.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,9 +8,6 @@ using System.Threading.Tasks;
 
 namespace Manphi.DBOperate.Service
 {
-    public interface IBaseService
-    {
-    }
     public interface IBaseService<T> where T : BaseEntity
     {
         #region select

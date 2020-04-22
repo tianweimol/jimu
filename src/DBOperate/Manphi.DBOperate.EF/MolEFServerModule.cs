@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Jimu.Module;
 using Jimu.Server.ORM.Dapper;
-using Manphi.DBOperate.EF;
+using Manphi.DbOperate.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -9,27 +9,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Mol.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
-    public class MolEFServerModule : ServerModuleBase
+    public class ManphiEFServerModule : ServerModuleBase
     {
-        readonly MolEFOptions _options;
+        readonly ManphiEFOptions _options;
         //private readonly DbContextOptions _dbContextOptions;
         private readonly DapperOptions _dapperOptions;
         IContainer _container = null;
-        public MolEFServerModule(IConfigurationRoot jimuAppSettings) : base(jimuAppSettings)
+        public ManphiEFServerModule(IConfigurationRoot jimuAppSettings) : base(jimuAppSettings)
         {
-            _options = jimuAppSettings.GetSection(typeof(MolEFOptions).Name).Get<MolEFOptions>();
+            _options = jimuAppSettings.GetSection(typeof(ManphiEFOptions).Name).Get<ManphiEFOptions>();
             //_dbContextOptions = jimuAppSettings.GetSection(typeof(DbContextOptions).Name).Get<DbContextOptions>();
             _dapperOptions = jimuAppSettings.GetSection(typeof(DapperOptions).Name).Get<DapperOptions>();
         }
 
         public override void DoServiceRegister(ContainerBuilder serviceContainerBuilder)
         {
-            serviceContainerBuilder.RegisterGeneric(typeof(BaseDBContext)).As(typeof(IBaseDbContext))
-                // .WithParameter("option", _dbContextOptions)
-                // .WithParameter("dboptions", _dbContextOptions)
-                .InstancePerLifetimeScope();
+            serviceContainerBuilder.RegisterType<BaseDbContext>().As<IBaseDbContext>().InstancePerLifetimeScope();
             serviceContainerBuilder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
             if (_options != null && _options.Enable)
             {

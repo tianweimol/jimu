@@ -5,10 +5,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Mol.DBOperate.EF;
-using Mol.DBOperate.Model;
+using Manphi.DbOperate.EF;
+using Manphi.DBOperate.Model;
 
-namespace Manphi.DBOperate.EF
+namespace Manphi.DbOperate.EF
 {
     public partial class Repository<T> : IRepository<T> where T : BaseEntity
     {

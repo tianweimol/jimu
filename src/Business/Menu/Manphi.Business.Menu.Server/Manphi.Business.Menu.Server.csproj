@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <StartupObject></StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="JimuAppServerSettings.json" />
@@ -26,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\DBOperate\Mol.DBOperate.EF\Manphi.DBOperate.EF.csproj" />
+    <ProjectReference Include="..\..\..\DBOperate\Manphi.DBOperate.EF\Manphi.DbOperate.EF.csproj" />
     <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Diagnostic.Skywalking\Jimu.Server.Diagnostic.Skywalking.csproj" />
     <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Discovery.Consul\Jimu.Server.Discovery.Consul.csproj" />
     <ProjectReference Include="..\..\..\Jimu.Modules\Jimu.Server.Memcached.EnyimMemcachedCore\Jimu.Server.Memcached.EnyimMemcachedCore.csproj" />

@@ -1,6 +1,6 @@
 {
   "SkyWalking": {
-    "ServiceName": "jimu_user",
+    "ServiceName": "jimu_menu",
     "Namespace": "",
     "HeaderVersions": [
       "sw6"
